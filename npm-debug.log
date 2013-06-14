@@ -1,0 +1,945 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.2.18
+3 info using node@v0.8.23
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose read json D:\jdevcc\rocambole-visualize\package.json
+6 warn package.json rocambole-visualize@0.0.1 No README.md file found!
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ 'D:\\jdevcc\\rocambole-visualize',
+8 verbose install   [ 'rocambole', 'express', 'browserify' ] ]
+9 verbose from cache D:\jdevcc\rocambole-visualize\package.json
+10 info preinstall rocambole-visualize@0.0.1
+11 verbose read json D:\jdevcc\rocambole-visualize\node_modules\express\package.json
+12 verbose read json D:\jdevcc\rocambole-visualize\node_modules\node-browser-resolve\package.json
+13 verbose read json D:\jdevcc\rocambole-visualize\node_modules\rocambole\package.json
+14 verbose from cache D:\jdevcc\rocambole-visualize\package.json
+15 verbose readDependencies using package.json deps
+16 verbose from cache D:\jdevcc\rocambole-visualize\node_modules\express\package.json
+17 verbose from cache D:\jdevcc\rocambole-visualize\node_modules\node-browser-resolve\package.json
+18 verbose from cache D:\jdevcc\rocambole-visualize\node_modules\rocambole\package.json
+19 verbose already installed skipping rocambole@~0.2 D:\jdevcc\rocambole-visualize
+20 verbose already installed skipping express@~3.2 D:\jdevcc\rocambole-visualize
+21 verbose cache add [ 'browserify@*', null ]
+22 verbose cache add name=undefined spec="browserify@*" args=["browserify@*",null]
+23 verbose parsed url { pathname: 'browserify@*',
+23 verbose parsed url   path: 'browserify@*',
+23 verbose parsed url   href: 'browserify@*' }
+24 verbose cache add name="browserify" spec="*" args=["browserify","*"]
+25 verbose parsed url { pathname: '*', path: '*', href: '*' }
+26 verbose addNamed [ 'browserify', '*' ]
+27 verbose addNamed [ null, '' ]
+28 silly lockFile 1ce535cc-browserify browserify@*
+29 verbose lock browserify@* C:\Users\fcrisci\AppData\Roaming\npm-cache\1ce535cc-browserify.lock
+30 silly addNameRange { name: 'browserify', range: '', hasData: false }
+31 verbose url raw browserify
+32 verbose url resolving [ 'https://registry.npmjs.org/', './browserify' ]
+33 verbose url resolved https://registry.npmjs.org/browserify
+34 info trying registry request attempt 1 at 16:35:55
+35 verbose etag "9SGZ4DH9RY024O36XY2A5EV9A"
+36 http GET https://registry.npmjs.org/browserify
+37 http 304 https://registry.npmjs.org/browserify
+38 silly registry.get cb [ 304,
+38 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+38 silly registry.get     etag: '"9SGZ4DH9RY024O36XY2A5EV9A"',
+38 silly registry.get     date: 'Tue, 11 Jun 2013 14:35:56 GMT',
+38 silly registry.get     'content-length': '0' } ]
+39 verbose etag browserify from cache
+40 silly addNameRange number 2 { name: 'browserify', range: '', hasData: true }
+41 silly addNameRange versions [ 'browserify',
+41 silly addNameRange   [ '0.0.1',
+41 silly addNameRange     '0.0.2',
+41 silly addNameRange     '0.0.3',
+41 silly addNameRange     '0.0.4',
+41 silly addNameRange     '0.0.5',
+41 silly addNameRange     '0.1.0',
+41 silly addNameRange     '0.1.1',
+41 silly addNameRange     '0.1.2',
+41 silly addNameRange     '0.1.3',
+41 silly addNameRange     '0.1.4',
+41 silly addNameRange     '0.1.5',
+41 silly addNameRange     '0.2.0',
+41 silly addNameRange     '0.2.1',
+41 silly addNameRange     '0.2.2',
+41 silly addNameRange     '0.2.3',
+41 silly addNameRange     '0.2.4',
+41 silly addNameRange     '0.2.5',
+41 silly addNameRange     '0.2.6',
+41 silly addNameRange     '0.2.7',
+41 silly addNameRange     '0.2.8',
+41 silly addNameRange     '0.2.9',
+41 silly addNameRange     '0.2.10',
+41 silly addNameRange     '0.2.11',
+41 silly addNameRange     '0.3.0',
+41 silly addNameRange     '0.3.1',
+41 silly addNameRange     '0.3.2',
+41 silly addNameRange     '0.3.3',
+41 silly addNameRange     '0.3.4',
+41 silly addNameRange     '0.3.5',
+41 silly addNameRange     '0.3.6',
+41 silly addNameRange     '0.3.7',
+41 silly addNameRange     '0.4.0',
+41 silly addNameRange     '0.4.1',
+41 silly addNameRange     '0.4.2',
+41 silly addNameRange     '0.4.3',
+41 silly addNameRange     '0.4.4',
+41 silly addNameRange     '0.4.5',
+41 silly addNameRange     '0.4.6',
+41 silly addNameRange     '0.4.7',
+41 silly addNameRange     '0.4.8',
+41 silly addNameRange     '0.4.9',
+41 silly addNameRange     '0.4.10',
+41 silly addNameRange     '0.4.11',
+41 silly addNameRange     '0.4.12',
+41 silly addNameRange     '0.4.13',
+41 silly addNameRange     '0.4.14',
+41 silly addNameRange     '0.4.15',
+41 silly addNameRange     '0.5.0',
+41 silly addNameRange     '0.5.1',
+41 silly addNameRange     '0.5.2',
+41 silly addNameRange     '1.0.0',
+41 silly addNameRange     '1.1.0',
+41 silly addNameRange     '1.1.1',
+41 silly addNameRange     '1.1.2',
+41 silly addNameRange     '1.1.3',
+41 silly addNameRange     '1.1.4',
+41 silly addNameRange     '1.2.0',
+41 silly addNameRange     '1.2.1',
+41 silly addNameRange     '1.2.2',
+41 silly addNameRange     '1.2.3',
+41 silly addNameRange     '1.2.4',
+41 silly addNameRange     '1.2.5',
+41 silly addNameRange     '1.2.6',
+41 silly addNameRange     '1.2.7',
+41 silly addNameRange     '1.2.8',
+41 silly addNameRange     '1.2.9',
+41 silly addNameRange     '1.3.0',
+41 silly addNameRange     '1.4.0',
+41 silly addNameRange     '1.4.1',
+41 silly addNameRange     '1.4.2',
+41 silly addNameRange     '1.4.3',
+41 silly addNameRange     '1.4.4',
+41 silly addNameRange     '1.4.5',
+41 silly addNameRange     '1.4.6',
+41 silly addNameRange     '1.4.7',
+41 silly addNameRange     '1.4.8',
+41 silly addNameRange     '1.5.0',
+41 silly addNameRange     '1.6.0',
+41 silly addNameRange     '1.6.1',
+41 silly addNameRange     '1.7.0',
+41 silly addNameRange     '1.7.1',
+41 silly addNameRange     '1.7.2',
+41 silly addNameRange     '1.7.3',
+41 silly addNameRange     '1.7.4',
+41 silly addNameRange     '1.7.5',
+41 silly addNameRange     '1.7.6',
+41 silly addNameRange     '1.7.7',
+41 silly addNameRange     '1.8.0',
+41 silly addNameRange     '1.8.1',
+41 silly addNameRange     '1.8.2',
+41 silly addNameRange     '1.8.3',
+41 silly addNameRange     '1.9.0',
+41 silly addNameRange     '1.9.1',
+41 silly addNameRange     '1.9.2',
+41 silly addNameRange     '1.9.3',
+41 silly addNameRange     '1.9.4',
+41 silly addNameRange     '1.10.0',
+41 silly addNameRange     '1.10.1',
+41 silly addNameRange     '1.10.2',
+41 silly addNameRange     '1.10.3',
+41 silly addNameRange     '1.10.4',
+41 silly addNameRange     '1.10.5',
+41 silly addNameRange     '1.10.6',
+41 silly addNameRange     '1.10.7',
+41 silly addNameRange     '1.10.8',
+41 silly addNameRange     '1.10.9',
+41 silly addNameRange     '1.10.11',
+41 silly addNameRange     '1.10.12',
+41 silly addNameRange     '1.10.13',
+41 silly addNameRange     '1.10.14',
+41 silly addNameRange     '1.10.15',
+41 silly addNameRange     '1.10.16',
+41 silly addNameRange     '1.10.17',
+41 silly addNameRange     '1.11.0',
+41 silly addNameRange     '1.11.1',
+41 silly addNameRange     '1.12.0',
+41 silly addNameRange     '1.12.1',
+41 silly addNameRange     '1.12.2',
+41 silly addNameRange     '1.12.3',
+41 silly addNameRange     '1.13.0',
+41 silly addNameRange     '1.13.1',
+41 silly addNameRange     '1.13.2',
+41 silly addNameRange     '1.13.3',
+41 silly addNameRange     '1.13.4',
+41 silly addNameRange     '1.13.5',
+41 silly addNameRange     '1.13.6',
+41 silly addNameRange     '1.13.8',
+41 silly addNameRange     '1.13.9',
+41 silly addNameRange     '1.13.10',
+41 silly addNameRange     '1.14.0',
+41 silly addNameRange     '1.14.1',
+41 silly addNameRange     '1.14.2',
+41 silly addNameRange     '1.14.3',
+41 silly addNameRange     '1.14.4',
+41 silly addNameRange     '1.14.5',
+41 silly addNameRange     '1.15.0',
+41 silly addNameRange     '1.15.1',
+41 silly addNameRange     '1.15.2',
+41 silly addNameRange     '1.15.3',
+41 silly addNameRange     '1.15.4',
+41 silly addNameRange     '1.15.5',
+41 silly addNameRange     '1.15.6',
+41 silly addNameRange     '1.16.0',
+41 silly addNameRange     '1.16.1',
+41 silly addNameRange     '1.16.2',
+41 silly addNameRange     '1.16.3',
+41 silly addNameRange     '1.16.4',
+41 silly addNameRange     '1.16.5',
+41 silly addNameRange     '1.16.6',
+41 silly addNameRange     '1.16.7',
+41 silly addNameRange     '1.16.8',
+41 silly addNameRange     '1.17.0',
+41 silly addNameRange     '1.17.1',
+41 silly addNameRange     '1.17.2',
+41 silly addNameRange     '1.17.3',
+41 silly addNameRange     '1.18.0',
+41 silly addNameRange     '2.0.0',
+41 silly addNameRange     '2.0.1',
+41 silly addNameRange     '2.1.0',
+41 silly addNameRange     '2.2.0',
+41 silly addNameRange     '2.2.1',
+41 silly addNameRange     '2.2.2',
+41 silly addNameRange     '2.2.3',
+41 silly addNameRange     '2.2.4',
+41 silly addNameRange     '2.2.5',
+41 silly addNameRange     '2.2.6',
+41 silly addNameRange     '2.3.0',
+41 silly addNameRange     '2.3.1',
+41 silly addNameRange     '2.4.0',
+41 silly addNameRange     '2.4.1',
+41 silly addNameRange     '2.4.2',
+41 silly addNameRange     '2.4.3',
+41 silly addNameRange     '2.5.0',
+41 silly addNameRange     '2.5.1',
+41 silly addNameRange     '2.6.0',
+41 silly addNameRange     '2.6.1',
+41 silly addNameRange     '2.7.0',
+41 silly addNameRange     '2.7.1',
+41 silly addNameRange     '2.7.2',
+41 silly addNameRange     '2.7.3',
+41 silly addNameRange     '2.7.4',
+41 silly addNameRange     '2.8.0',
+41 silly addNameRange     '2.8.1',
+41 silly addNameRange     '2.9.0',
+41 silly addNameRange     '2.10.0',
+41 silly addNameRange     '2.10.1',
+41 silly addNameRange     '2.10.2',
+41 silly addNameRange     '2.11.0',
+41 silly addNameRange     '2.12.0',
+41 silly addNameRange     '2.12.1',
+41 silly addNameRange     '2.12.2',
+41 silly addNameRange     '2.12.3',
+41 silly addNameRange     '2.12.4',
+41 silly addNameRange     '2.12.5',
+41 silly addNameRange     '2.13.0',
+41 silly addNameRange     '2.13.1',
+41 silly addNameRange     '2.13.2',
+41 silly addNameRange     '2.13.3',
+41 silly addNameRange     '2.14.0',
+41 silly addNameRange     '2.14.1',
+41 silly addNameRange     '2.14.2',
+41 silly addNameRange     '2.15.0',
+41 silly addNameRange     '2.16.0',
+41 silly addNameRange     '2.17.0',
+41 silly addNameRange     '2.17.1',
+41 silly addNameRange     '2.17.2',
+41 silly addNameRange     '2.17.3',
+41 silly addNameRange     '2.17.4',
+41 silly addNameRange     '2.18.0',
+41 silly addNameRange     '2.18.1' ] ]
+42 verbose addNamed [ 'browserify', '2.18.1' ]
+43 verbose addNamed [ '2.18.1', '2.18.1' ]
+44 silly lockFile 5d3b6bb2-browserify-2-18-1 browserify@2.18.1
+45 verbose lock browserify@2.18.1 C:\Users\fcrisci\AppData\Roaming\npm-cache\5d3b6bb2-browserify-2-18-1.lock
+46 verbose read json C:\Users\fcrisci\AppData\Roaming\npm-cache\browserify\2.18.1\package\package.json
+47 silly lockFile 5d3b6bb2-browserify-2-18-1 browserify@2.18.1
+48 silly lockFile 5d3b6bb2-browserify-2-18-1 browserify@2.18.1
+49 silly lockFile 1ce535cc-browserify browserify@*
+50 silly lockFile 1ce535cc-browserify browserify@*
+51 silly resolved [ { name: 'browserify',
+51 silly resolved     version: '2.18.1',
+51 silly resolved     description: 'browser-side require() the node way',
+51 silly resolved     main: 'index.js',
+51 silly resolved     bin: { browserify: 'bin/cmd.js' },
+51 silly resolved     repository:
+51 silly resolved      { type: 'git',
+51 silly resolved        url: 'http://github.com/substack/node-browserify.git' },
+51 silly resolved     keywords:
+51 silly resolved      [ 'browser',
+51 silly resolved        'require',
+51 silly resolved        'commonjs',
+51 silly resolved        'commonj-esque',
+51 silly resolved        'bundle',
+51 silly resolved        'npm',
+51 silly resolved        'javascript' ],
+51 silly resolved     dependencies:
+51 silly resolved      { 'module-deps': '~0.10.3',
+51 silly resolved        'browser-pack': '~0.9.2',
+51 silly resolved        'shell-quote': '~0.0.1',
+51 silly resolved        through: '~2.3.4',
+51 silly resolved        duplexer: '~0.0.2',
+51 silly resolved        'concat-stream': '~0.1.1',
+51 silly resolved        'insert-module-globals': '~0.2.0',
+51 silly resolved        'syntax-error': '~0.0.0',
+51 silly resolved        'browser-resolve': 'git://github.com/substack/node-browser-resolve.git#dir-replace',
+51 silly resolved        'browser-builtins': '~1.0.1',
+51 silly resolved        inherits: '~1.0.0',
+51 silly resolved        optimist: '~0.5.1',
+51 silly resolved        JSONStream: '~0.6.4',
+51 silly resolved        umd: '~1.1.0' },
+51 silly resolved     devDependencies:
+51 silly resolved      { tap: '~0.4.0',
+51 silly resolved        mkdirp: '~0.3.3',
+51 silly resolved        backbone: '~0.9.2',
+51 silly resolved        dnode: '~1.0.3',
+51 silly resolved        seq: '0.3.3',
+51 silly resolved        'coffee-script': '~1.5.0' },
+51 silly resolved     author:
+51 silly resolved      { name: 'James Halliday',
+51 silly resolved        email: 'mail@substack.net',
+51 silly resolved        url: 'http://substack.net' },
+51 silly resolved     scripts: { test: 'tap test/*.js' },
+51 silly resolved     license: 'MIT',
+51 silly resolved     readme: '# browserify\n\n`require(\'modules\')` in the browser\n\nUse a [node](http://nodejs.org)-style `require()` to organize your browser code\nand load modules installed by [npm](https://npmjs.org).\n\nbrowserify will recursively analyze all the `require()` calls in your app in\norder to build a bundle you can serve up to the browser in a single `<script>`\ntag.\n\n[![build status](https://secure.travis-ci.org/substack/node-browserify.png)](http://travis-ci.org/substack/node-browserify)\n\n![browserify!](http://substack.net/images/browserify_logo.png)\n\n# example\n\nWhip up a file, `main.js` with some `require()s` in it. You can use relative\npaths like `\'./foo\'` and `\'../lib/bar\'` or module paths like `\'gamma\'` that will\nsearch `node_modules/` using\n[node\'s module lookup algorithm](https://github.com/substack/node-resolve).\n\n``` js\nvar foo = require(\'./foo\');\nvar bar = require(\'../lib/bar\');\nvar gamma = require(\'gamma\');\n\nvar elem = document.getElementById(\'result\');\nvar x = foo(100) + bar(\'baz\');\nelem.textContent = gamma(x);\n```\n\nNow just use the `browserify` command to build a bundle starting at `main.js`:\n\n```\n$ browserify main.js > bundle.js\n```\n\nAll of the modules that `main.js` needs are included in the `bundle.js` from a\nrecursive walk of the `require()` graph using\n[required](https://github.com/shtylman/node-required).\n\nTo use this bundle, just toss a `<script src="bundle.js"></script>` into your\nhtml!\n\n## external requires\n\nYou can just as easily create bundle that will export a `require()` function so\nyou can `require()` modules from another script tag. Here we\'ll create a\n`bundle.js` with the [through](https://npmjs.org/package/through)\nand [duplexer](https://npmjs.org/package/duplexer) modules.\n\n```\n$ browserify -r through -r duplexer > bundle.js\n```\n\nThen in your page you can do:\n\n``` js\n<script src="bundle.js"></script>\n<script>\n  var through = require(\'through\');\n  var duplexer = require(\'duplexer\');\n  /* ... */\n</script>\n```\n\n## multiple bundles\n\nIf browserify finds a `require` function already defined in the page scope, it\nwill fall back to that function if it didn\'t find any matches in its own set of\nbundled modules.\n\nIn this way you can use browserify to split up bundles among multiple pages to\nget the benefit of caching for shared, infrequently-changing modules, while\nstill being able to use `require()`. Just use a combination of `--external` and\n`--require` to factor out common dependencies.\n\nFor example, if a website with 2 pages, `beep.js`:\n\n``` js\nvar robot = require(\'./robot\');\nconsole.log(robot(\'beep\'));\n```\n\nand `boop.js`:\n\n``` js\nvar robot = require(\'./robot\');\nconsole.log(robot(\'boop\'));\n```\n\nboth depend on `robot.js`:\n\n``` js\nmodule.exports = function (s) { return s.toUpperCase() + \'!\' };\n```\n\n```\n$ browserify -r ./robot > static/common.js\n$ browserify -x ./robot.js beep.js > static/beep.js\n$ browserify -x ./robot.js boop.js > static/boop.js\n```\n\nThen on the beep page you can have:\n\n``` html\n<script src="common.js"></script>\n<script src="beep.js"></script>\n```\n\nwhile the boop page can have:\n\n``` html\n<script src="common.js"></script>\n<script src="boop.js"></script>\n```\n\n## api example\n\nYou can use the API directly too:\n\n``` js\nvar browserify = require(\'browserify\');\nvar b = browserify();\nb.add(\'./browser/main.js\');\nb.bundle().pipe(process.stdout);\n```\n\n# usage\n\n```\nUsage: browserify [entry files] {OPTIONS}\n\nStandard Options:\n\n    --outfile, -o  Write the browserify bundle to this file.\n                   If unspecified, browserify prints to stdout.\n\n    --require, -r  A module name or file to bundle.require()\n                   Optionally use a colon separator to set the target.\n\n      --entry, -e  An entry point of your app\n  \n     --ignore, -i  Omit a file from the output bundle.\n\n   --external, -x  Reference a file from another bundle.\n  \n  --transform, -t  Use a transform module on top-level files.\n \n    --command, -c  Use a transform command on top-level files.\n   \n  --standalone -s  Generate a UMD bundle for the supplied export name.\n                   This bundle works with other module systems and sets the name\n                   given as a window global if no module system is found.\n  \n       --debug -d  Enable source maps that allow you to debug your files\n                   separately.\n\n       --help, -h  Show this message\n\nFor advanced options, type `browserify help advanced`.\n\nSpecify a parameter.\n```\n\n```\nAdvanced Options:\n\n  --insert-globals, --ig, --fast    [default: false]\n\n    Skip detection and always insert definitions for process, global,\n    __filename, and __dirname.\n                  \n    benefit: faster builds\n    cost: extra bytes\n \n  --detect-globals, --dg            [default: true]\n\n    Detect the presence of process, global, __filename, and __dirname and define\n    these values when present.\n\n    benefit: npm modules more likely to work\n    cost: slower builds\n\n  --ignore-missing, --im            [default: false]\n\n    Ignore `require()` statements that don\'t resolve to anything.\n\n  --noparse=FILE\n\n    Don\'t parse FILE at all. This will make bundling much, much faster for giant\n    libs like jquery or threejs.\n\n  --deps\n  \n    Instead of standard bundle output, print the dependency array generated by\n    module-deps.\n\n  --list\n \n    Print each file in the dependency graph. Useful for makefiles.\n\n```\n\n# compatibility\n\nMany [npm](http://npmjs.org) modules that don\'t do IO will just work after being\nbrowserified. Others take more work.\n\nMany node built-in modules have been wrapped to work in the browser, but only\nwhen you explicitly `require()` or use their functionality.\n\nWhen you `require()` any of these modules, you will get a browser-specific shim:\n\n* events\n* stream\n* path\n* assert\n* url\n* util\n* querystring\n* buffer\n* buffer_ieee754\n* console\n* [vm](https://github.com/substack/vm-browserify)\n* [http](https://github.com/substack/http-browserify)\n* [crypto](https://github.com/dominictarr/crypto-browserify)\n* [zlib](https://github.com/brianloveswords/zlib-browserify)\n\nAdditionally if you use any of these variables, they\n[will be defined](https://github.com/substack/insert-module-globals)\nin the bundled output in a browser-appropriate way:\n\n* [process](https://github.com/shtylman/node-process)\n* [Buffer](https://github.com/toots/buffer-browserify)\n* global - top-level scope object (window)\n* __filename - file path of the currently executing file\n* __dirname - directory path of the currently executing file\n\n# methods\n\n``` js\nvar browserify = require(\'browserify\')\n```\n\n## var b = browserify(files=[] or opts={})\n\nCreate a browserify instance `b` from the entry main `files` or `opts.files`.\n`files` can be an array of files or a single file.\n\nYou can also specify an `opts.noParse` array which will skip all require() and\nglobal parsing for each file in the array. Use this for giant libs like jquery\nor threejs that don\'t have any requires or node-style globals but take forever\nto parse.\n\n## b.add(file)\n\nAdd an entry file from `file` that will be executed when the bundle loads.\n\n## b.require(file[, opts])\n\nMake `file` available from outside the bundle with `require(file)`.\n\nThe `file` param is anything that can be resolved by `require.resolve()`.\n\nUse the `expose` property of opts to specify a custom dependency name. \n`require(\'./vendor/angular/angular.js\', {expose: \'angular\'})` enables `require(\'angular\')`\n\n## b.bundle(opts, cb)\n\nBundle the files and their dependencies into a single javascript file.\n\nReturn a readable stream with the javascript file contents or\noptionally specify a `cb(err, src)` to get the buffered results.\n\nWhen `opts.insertGlobals` is true, always insert `process`, `global`,\n`__filename`, and `__dirname` without analyzing the AST for faster builds but\nlarger output bundles. Default false.\n\nWhen `opts.detectGlobals` is true, scan all files for `process`, `global`,\n`__filename`, and `__dirname`, defining as necessary. With this option npm\nmodules are more likely to work but bundling takes longer. Default true.\n\nWhen `opts.debug` is true, add a source map inline to the end of the bundle.\nThis makes debugging easier because you can see all the original files if\nyou are in a modern enough browser.\n\nWhen `opts.standalone` is a non-empty string, a standalone module is created\nwith that name and a [umd](https://github.com/forbeslindesay/umd) wrapper.\n\n## b.external(file)\n\nPrevent `file` from being loaded into the current bundle, instead referencing\nfrom another bundle.\n\n## b.ignore(file)\n\nPrevent the module name or file at `file` from showing up in the output bundle.\n\n## b.transform(tr)\n\nTransform source code before parsing it for `require()` calls with the transform\nfunction or module name `tr`.\n\nIf `tr` is a function, it will be called with `tr(file)` and it should return a\n[through-stream](https://github.com/substack/stream-handbook#through)\nthat takes the raw file contents and produces the transformed source.\n\nIf `tr` is a string, it should be a module name or file path of a\n[transform module](https://github.com/substack/module-deps#transforms)\nwith a signature of:\n\n``` js\nvar through = require(\'through\');\nmodule.exports = function (file) { return through() };\n```\n\nYou don\'t need to necessarily use the\n[through](https://npmjs.org/package/through) module, this is just a simple\nexample.\n\nHere\'s how you might compile coffee script on the fly using `.transform()`:\n\n```\nvar coffee = require(\'coffee-script\');\nvar through = require(\'through\');\n\nb.transform(function (file) {\n    var data = \'\';\n    return through(write, end);\n    \n    function write (buf) { data += buf }\n    function end () {\n        this.queue(coffee.compile(data));\n        this.queue(null);\n    }\n});\n```\n\nNote that on the command-line with the `-c` flag you can just do:\n\n```\n$ browserify -c \'coffee -sc\' main.coffee > bundle.js\n```\n\nOr better still, use the [coffeeify](https://github.com/substack/coffeeify)\nmodule:\n\n```\n$ npm install coffeeify\n$ browserify -t coffeeify main.coffee > bundle.js\n```\n\n# package.json\n\nbrowserify uses the `package.json` in its module resolution algorithm just like\nnode, but there is a special\n"[browser](https://gist.github.com/4339901)" field you can set to override file\nresolution for browser-specific versions.\n\nYou can specify source transforms in the package.json in the\nbrowserify.transforms field. There is more information about how source\ntransforms work in package.json on the\n[module-deps readme](https://github.com/substack/module-deps#transforms).\n\n# events\n\n## b.on(\'file\', function (file, id, parent) {})\n\nWhen a file is resolved for the bundle, the bundle emits a `\'file\'` event with\nthe full `file` path, the `id` string passed to `require()`, and the `parent`\nobject used by\n[browser-resolve](https://github.com/shtylman/node-browser-resolve).\n\nYou could use the `file` event to implement a file watcher to regenerate bundles\nwhen files change.\n\n# list of source transforms\n\nHere is a list of known source transforms:\n\n* [brfs](https://github.com/substack/brfs) - inline\n`fs.readFileSync()` calls with file contents\n\n* [coffeeify](https://github.com/substack/coffeeify) - compile\n`.coffee` files to javascript automatically\n\n* [caching-coffeeify](https://github.com/thlorenz/caching-coffeeify) - coffeeify\nversion that caches previously compiled files to optimize the compilation step\n\n* [hbsfy](https://github.com/epeli/node-hbsfy) - precompile handlebars\ntemplates to javascript functions automatically\n\n* [rfileify](https://github.com/ForbesLindesay/rfileify) - inline `rfile(path)`\ncalls with file contents (also supports `ruglify` and any other `rfile` derivatives)\n\n* [liveify](https://github.com/quarterto/liveify) - compile livescript files to javascript automatically\n\n* [es6ify](https://github.com/thlorenz/es6ify) - compile ES6 files to \nES5 javascript automatically\n\n* [turn](https://github.com/juliangruber/turn) - minimal modules for a hypothetical es6 with lua\'s return\n\n* [rfolderify](https://github.com/quarterto/rfolderify) - turn calls to rfolder into a map of requires of the files in the thing\n\n# third-party tools\n\nIf you want to efficiently re-compile the bundle automatically when you edit\nfiles, you can use [watchify](https://github.com/substack/watchify).\n\nIf you are using express or connect, you can use\n[enchilada](https://github.com/shtylman/node-enchilada) or [browserify-middleware](https://github.com/ForbesLindesay/browserify-middleware)\nto host your bundles as middleware.\n\nIf you want a standalone web server for development that will create bundles on\ndemand, check out [browservefy](https://github.com/chrisdickinson/browservefy).\n\n# install\n\nWith [npm](http://npmjs.org) do:\n\n```\nnpm install -g browserify\n```\n\n# license\n\nMIT\n\n![browserify!](http://substack.net/images/browserify/browserify.png)\n',
+51 silly resolved     readmeFilename: 'readme.markdown',
+51 silly resolved     _id: 'browserify@2.18.1',
+51 silly resolved     _from: 'browserify@*' } ]
+52 info install browserify@2.18.1 into D:\jdevcc\rocambole-visualize
+53 info installOne browserify@2.18.1
+54 verbose from cache C:\Users\fcrisci\AppData\Roaming\npm-cache\browserify\2.18.1\package\package.json
+55 info D:\jdevcc\rocambole-visualize\node_modules\browserify unbuild
+56 verbose read json D:\jdevcc\rocambole-visualize\node_modules\browserify\package.json
+57 verbose tar unpack C:\Users\fcrisci\AppData\Roaming\npm-cache\browserify\2.18.1\package.tgz
+58 silly lockFile e7815724-isualize-node-modules-browserify D:\jdevcc\rocambole-visualize\node_modules\browserify
+59 verbose lock D:\jdevcc\rocambole-visualize\node_modules\browserify C:\Users\fcrisci\AppData\Roaming\npm-cache\e7815724-isualize-node-modules-browserify.lock
+60 silly lockFile 68768e3f-he-browserify-2-18-1-package-tgz C:\Users\fcrisci\AppData\Roaming\npm-cache\browserify\2.18.1\package.tgz
+61 verbose lock C:\Users\fcrisci\AppData\Roaming\npm-cache\browserify\2.18.1\package.tgz C:\Users\fcrisci\AppData\Roaming\npm-cache\68768e3f-he-browserify-2-18-1-package-tgz.lock
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+65 silly gunzTarPerm extractEntry .npmignore
+66 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+67 silly gunzTarPerm extractEntry LICENSE
+68 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+69 silly gunzTarPerm extractEntry index.js
+70 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+71 silly gunzTarPerm extractEntry _empty.js
+72 silly gunzTarPerm modified mode [ '_empty.js', 438, 420 ]
+73 silly gunzTarPerm extractEntry .travis.yml
+74 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+75 silly gunzTarPerm extractEntry bin/args.js
+76 silly gunzTarPerm modified mode [ 'bin/args.js', 438, 420 ]
+77 silly gunzTarPerm extractEntry bin/cmd.js
+78 silly gunzTarPerm modified mode [ 'bin/cmd.js', 438, 420 ]
+79 silly gunzTarPerm extractEntry bin/advanced.txt
+80 silly gunzTarPerm modified mode [ 'bin/advanced.txt', 438, 420 ]
+81 silly gunzTarPerm extractEntry bin/usage.txt
+82 silly gunzTarPerm modified mode [ 'bin/usage.txt', 438, 420 ]
+83 silly gunzTarPerm extractEntry example/api/build.js
+84 silly gunzTarPerm modified mode [ 'example/api/build.js', 438, 420 ]
+85 silly gunzTarPerm extractEntry example/api/browser/bar.js
+86 silly gunzTarPerm modified mode [ 'example/api/browser/bar.js', 438, 420 ]
+87 silly gunzTarPerm extractEntry example/api/browser/foo.js
+88 silly gunzTarPerm modified mode [ 'example/api/browser/foo.js', 438, 420 ]
+89 silly gunzTarPerm extractEntry example/api/browser/main.js
+90 silly gunzTarPerm modified mode [ 'example/api/browser/main.js', 438, 420 ]
+91 silly gunzTarPerm extractEntry example/multiple_bundles/beep.js
+92 silly gunzTarPerm modified mode [ 'example/multiple_bundles/beep.js', 438, 420 ]
+93 silly gunzTarPerm extractEntry example/multiple_bundles/boop.js
+94 silly gunzTarPerm modified mode [ 'example/multiple_bundles/boop.js', 438, 420 ]
+95 silly gunzTarPerm extractEntry example/multiple_bundles/robot.js
+96 silly gunzTarPerm modified mode [ 'example/multiple_bundles/robot.js', 438, 420 ]
+97 silly gunzTarPerm extractEntry example/multiple_bundles/build.sh
+98 silly gunzTarPerm modified mode [ 'example/multiple_bundles/build.sh', 438, 420 ]
+99 silly gunzTarPerm extractEntry example/multiple_bundles/static/beep.js
+100 silly gunzTarPerm modified mode [ 'example/multiple_bundles/static/beep.js', 438, 420 ]
+101 silly gunzTarPerm extractEntry example/multiple_bundles/static/boop.js
+102 silly gunzTarPerm modified mode [ 'example/multiple_bundles/static/boop.js', 438, 420 ]
+103 silly gunzTarPerm extractEntry example/multiple_bundles/static/common.js
+104 silly gunzTarPerm modified mode [ 'example/multiple_bundles/static/common.js', 438, 420 ]
+105 silly gunzTarPerm extractEntry example/multiple_bundles/static/beep.html
+106 silly gunzTarPerm modified mode [ 'example/multiple_bundles/static/beep.html', 438, 420 ]
+107 silly gunzTarPerm extractEntry example/multiple_bundles/static/boop.html
+108 silly gunzTarPerm modified mode [ 'example/multiple_bundles/static/boop.html', 438, 420 ]
+109 silly gunzTarPerm extractEntry example/source_maps/build.js
+110 silly gunzTarPerm modified mode [ 'example/source_maps/build.js', 438, 420 ]
+111 silly gunzTarPerm extractEntry example/source_maps/build.sh
+112 silly gunzTarPerm modified mode [ 'example/source_maps/build.sh', 438, 420 ]
+113 silly gunzTarPerm extractEntry example/source_maps/index.html
+114 silly gunzTarPerm modified mode [ 'example/source_maps/index.html', 438, 420 ]
+115 silly gunzTarPerm extractEntry example/source_maps/js/foo.js
+116 silly gunzTarPerm modified mode [ 'example/source_maps/js/foo.js', 438, 420 ]
+117 silly gunzTarPerm extractEntry example/source_maps/js/main.js
+118 silly gunzTarPerm modified mode [ 'example/source_maps/js/main.js', 438, 420 ]
+119 silly gunzTarPerm extractEntry example/source_maps/js/build/.npmignore
+120 silly gunzTarPerm modified mode [ 'example/source_maps/js/build/.npmignore', 438, 420 ]
+121 silly gunzTarPerm extractEntry example/source_maps/js/wunder/bar.js
+122 silly gunzTarPerm modified mode [ 'example/source_maps/js/wunder/bar.js', 438, 420 ]
+123 silly gunzTarPerm extractEntry readme.markdown
+124 silly gunzTarPerm modified mode [ 'readme.markdown', 438, 420 ]
+125 silly gunzTarPerm extractEntry test/args.js
+126 silly gunzTarPerm modified mode [ 'test/args.js', 438, 420 ]
+127 silly gunzTarPerm extractEntry test/crypto.js
+128 silly gunzTarPerm modified mode [ 'test/crypto.js', 438, 420 ]
+129 silly gunzTarPerm extractEntry test/dep.js
+130 silly gunzTarPerm modified mode [ 'test/dep.js', 438, 420 ]
+131 silly gunzTarPerm extractEntry test/dnode.js
+132 silly gunzTarPerm modified mode [ 'test/dnode.js', 438, 420 ]
+133 silly gunzTarPerm extractEntry test/reverse_multi_bundle.js
+134 silly gunzTarPerm modified mode [ 'test/reverse_multi_bundle.js', 438, 420 ]
+135 silly gunzTarPerm extractEntry test/comment.js
+136 silly gunzTarPerm modified mode [ 'test/comment.js', 438, 420 ]
+137 silly gunzTarPerm extractEntry test/retarget.js
+138 silly gunzTarPerm modified mode [ 'test/retarget.js', 438, 420 ]
+139 silly gunzTarPerm extractEntry test/entry.js
+140 silly gunzTarPerm modified mode [ 'test/entry.js', 438, 420 ]
+141 silly gunzTarPerm extractEntry test/require_cache.js
+142 silly gunzTarPerm modified mode [ 'test/require_cache.js', 438, 420 ]
+143 silly gunzTarPerm extractEntry test/entry_exec.js
+144 silly gunzTarPerm modified mode [ 'test/entry_exec.js', 438, 420 ]
+145 silly gunzTarPerm extractEntry test/process.js
+146 silly gunzTarPerm modified mode [ 'test/process.js', 438, 420 ]
+147 silly gunzTarPerm extractEntry test/shebang.js
+148 silly gunzTarPerm modified mode [ 'test/shebang.js', 438, 420 ]
+149 silly gunzTarPerm extractEntry test/error_code.js
+150 silly gunzTarPerm modified mode [ 'test/error_code.js', 438, 420 ]
+151 silly gunzTarPerm extractEntry test/coffee_bin.js
+152 silly gunzTarPerm modified mode [ 'test/coffee_bin.js', 438, 420 ]
+153 silly gunzTarPerm extractEntry test/multi_entry.js
+154 silly gunzTarPerm modified mode [ 'test/multi_entry.js', 438, 420 ]
+155 silly gunzTarPerm extractEntry test/standalone.js
+156 silly gunzTarPerm modified mode [ 'test/standalone.js', 438, 420 ]
+157 silly gunzTarPerm extractEntry test/export.js
+158 silly gunzTarPerm modified mode [ 'test/export.js', 438, 420 ]
+159 silly gunzTarPerm extractEntry test/circular.js
+160 silly gunzTarPerm modified mode [ 'test/circular.js', 438, 420 ]
+161 silly gunzTarPerm extractEntry test/multi_bundle.js
+162 silly gunzTarPerm modified mode [ 'test/multi_bundle.js', 438, 420 ]
+163 silly gunzTarPerm extractEntry test/subdep.js
+164 silly gunzTarPerm modified mode [ 'test/subdep.js', 438, 420 ]
+165 silly gunzTarPerm extractEntry test/fake.js
+166 silly gunzTarPerm modified mode [ 'test/fake.js', 438, 420 ]
+167 silly gunzTarPerm extractEntry test/catch.js
+168 silly gunzTarPerm modified mode [ 'test/catch.js', 438, 420 ]
+169 silly gunzTarPerm extractEntry test/maxlisteners.js
+170 silly gunzTarPerm modified mode [ 'test/maxlisteners.js', 438, 420 ]
+171 silly gunzTarPerm extractEntry test/tr.js
+172 silly gunzTarPerm modified mode [ 'test/tr.js', 438, 420 ]
+173 silly gunzTarPerm extractEntry test/backbone.js
+174 silly gunzTarPerm modified mode [ 'test/backbone.js', 438, 420 ]
+175 silly gunzTarPerm extractEntry test/bundle_sourcemap.js
+176 silly gunzTarPerm modified mode [ 'test/bundle_sourcemap.js', 438, 420 ]
+177 silly gunzTarPerm extractEntry test/file_event.js
+178 silly gunzTarPerm modified mode [ 'test/file_event.js', 438, 420 ]
+179 silly gunzTarPerm extractEntry test/buffer.js
+180 silly gunzTarPerm modified mode [ 'test/buffer.js', 438, 420 ]
+181 silly gunzTarPerm extractEntry test/json.js
+182 silly gunzTarPerm modified mode [ 'test/json.js', 438, 420 ]
+183 silly gunzTarPerm extractEntry test/bin_entry.js
+184 silly gunzTarPerm modified mode [ 'test/bin_entry.js', 438, 420 ]
+185 silly gunzTarPerm extractEntry test/global.js
+186 silly gunzTarPerm modified mode [ 'test/global.js', 438, 420 ]
+187 silly gunzTarPerm extractEntry test/bin.js
+188 silly gunzTarPerm modified mode [ 'test/bin.js', 438, 420 ]
+189 silly gunzTarPerm extractEntry test/ignore.js
+190 silly gunzTarPerm modified mode [ 'test/ignore.js', 438, 420 ]
+191 silly gunzTarPerm extractEntry test/dollar.js
+192 silly gunzTarPerm modified mode [ 'test/dollar.js', 438, 420 ]
+193 silly gunzTarPerm extractEntry test/util.js
+194 silly gunzTarPerm modified mode [ 'test/util.js', 438, 420 ]
+195 silly gunzTarPerm extractEntry test/field.js
+196 silly gunzTarPerm modified mode [ 'test/field.js', 438, 420 ]
+197 silly gunzTarPerm extractEntry test/ignore/by-id.js
+198 silly gunzTarPerm modified mode [ 'test/ignore/by-id.js', 438, 420 ]
+199 silly gunzTarPerm extractEntry test/ignore/main.js
+200 silly gunzTarPerm modified mode [ 'test/ignore/main.js', 438, 420 ]
+201 silly gunzTarPerm extractEntry test/ignore/skip.js
+202 silly gunzTarPerm modified mode [ 'test/ignore/skip.js', 438, 420 ]
+203 silly gunzTarPerm extractEntry test/global/buffer.js
+204 silly gunzTarPerm modified mode [ 'test/global/buffer.js', 438, 420 ]
+205 silly gunzTarPerm extractEntry test/global/filename.js
+206 silly gunzTarPerm modified mode [ 'test/global/filename.js', 438, 420 ]
+207 silly gunzTarPerm extractEntry test/global/main.js
+208 silly gunzTarPerm modified mode [ 'test/global/main.js', 438, 420 ]
+209 silly gunzTarPerm extractEntry test/global/tick.js
+210 silly gunzTarPerm modified mode [ 'test/global/tick.js', 438, 420 ]
+211 silly gunzTarPerm extractEntry test/maxlisteners/main.js
+212 silly gunzTarPerm modified mode [ 'test/maxlisteners/main.js', 438, 420 ]
+213 silly gunzTarPerm extractEntry test/field/miss.js
+214 silly gunzTarPerm modified mode [ 'test/field/miss.js', 438, 420 ]
+215 silly gunzTarPerm extractEntry test/field/object.js
+216 silly gunzTarPerm modified mode [ 'test/field/object.js', 438, 420 ]
+217 silly gunzTarPerm extractEntry test/field/string.js
+218 silly gunzTarPerm modified mode [ 'test/field/string.js', 438, 420 ]
+219 silly gunzTarPerm extractEntry test/field/sub.js
+220 silly gunzTarPerm modified mode [ 'test/field/sub.js', 438, 420 ]
+221 silly gunzTarPerm extractEntry test/field/node_modules/z-miss/package.json
+222 silly gunzTarPerm modified mode [ 'test/field/node_modules/z-miss/package.json', 438, 420 ]
+223 silly gunzTarPerm extractEntry test/field/node_modules/z-miss/browser.js
+224 silly gunzTarPerm modified mode [ 'test/field/node_modules/z-miss/browser.js', 438, 420 ]
+225 silly gunzTarPerm extractEntry test/field/node_modules/z-miss/main.js
+226 silly gunzTarPerm modified mode [ 'test/field/node_modules/z-miss/main.js', 438, 420 ]
+227 silly gunzTarPerm extractEntry test/field/node_modules/z-object/package.json
+228 silly gunzTarPerm modified mode [ 'test/field/node_modules/z-object/package.json', 438, 420 ]
+229 silly gunzTarPerm extractEntry test/field/node_modules/z-object/browser.js
+230 silly gunzTarPerm modified mode [ 'test/field/node_modules/z-object/browser.js', 438, 420 ]
+231 silly gunzTarPerm extractEntry test/field/node_modules/z-object/main.js
+232 silly gunzTarPerm modified mode [ 'test/field/node_modules/z-object/main.js', 438, 420 ]
+233 silly gunzTarPerm extractEntry test/field/node_modules/z-string/package.json
+234 silly gunzTarPerm modified mode [ 'test/field/node_modules/z-string/package.json', 438, 420 ]
+235 silly gunzTarPerm extractEntry test/field/node_modules/z-string/browser.js
+236 silly gunzTarPerm modified mode [ 'test/field/node_modules/z-string/browser.js', 438, 420 ]
+237 silly gunzTarPerm extractEntry test/field/node_modules/z-string/main.js
+238 silly gunzTarPerm modified mode [ 'test/field/node_modules/z-string/main.js', 438, 420 ]
+239 silly gunzTarPerm extractEntry test/field/node_modules/z-sub/package.json
+240 silly gunzTarPerm modified mode [ 'test/field/node_modules/z-sub/package.json', 438, 420 ]
+241 silly gunzTarPerm extractEntry test/field/node_modules/z-sub/main.js
+242 silly gunzTarPerm modified mode [ 'test/field/node_modules/z-sub/main.js', 438, 420 ]
+243 silly gunzTarPerm extractEntry test/field/node_modules/z-sub/browser/a.js
+244 silly gunzTarPerm modified mode [ 'test/field/node_modules/z-sub/browser/a.js', 438, 420 ]
+245 silly gunzTarPerm extractEntry test/field/node_modules/z-sub/browser/b.js
+246 silly gunzTarPerm modified mode [ 'test/field/node_modules/z-sub/browser/b.js', 438, 420 ]
+247 silly gunzTarPerm extractEntry test/multi_bundle/a.js
+248 silly gunzTarPerm modified mode [ 'test/multi_bundle/a.js', 438, 420 ]
+249 silly gunzTarPerm extractEntry test/multi_bundle/b.js
+250 silly gunzTarPerm modified mode [ 'test/multi_bundle/b.js', 438, 420 ]
+251 silly gunzTarPerm extractEntry test/fake/fake_fs.js
+252 silly gunzTarPerm modified mode [ 'test/fake/fake_fs.js', 438, 420 ]
+253 silly gunzTarPerm extractEntry test/fake/main.js
+254 silly gunzTarPerm modified mode [ 'test/fake/main.js', 438, 420 ]
+255 silly gunzTarPerm extractEntry test/multi_entry/a.js
+256 silly gunzTarPerm modified mode [ 'test/multi_entry/a.js', 438, 420 ]
+257 silly gunzTarPerm extractEntry test/multi_entry/b.js
+258 silly gunzTarPerm modified mode [ 'test/multi_entry/b.js', 438, 420 ]
+259 silly gunzTarPerm extractEntry test/multi_entry/c.js
+260 silly gunzTarPerm modified mode [ 'test/multi_entry/c.js', 438, 420 ]
+261 silly gunzTarPerm extractEntry test/export/entry.js
+262 silly gunzTarPerm modified mode [ 'test/export/entry.js', 438, 420 ]
+263 silly gunzTarPerm extractEntry test/catch/main.js
+264 silly gunzTarPerm modified mode [ 'test/catch/main.js', 438, 420 ]
+265 silly gunzTarPerm extractEntry test/process/main.js
+266 silly gunzTarPerm modified mode [ 'test/process/main.js', 438, 420 ]
+267 silly gunzTarPerm extractEntry test/process/one.js
+268 silly gunzTarPerm modified mode [ 'test/process/one.js', 438, 420 ]
+269 silly gunzTarPerm extractEntry test/process/two.js
+270 silly gunzTarPerm modified mode [ 'test/process/two.js', 438, 420 ]
+271 silly gunzTarPerm extractEntry test/error_code/src.js
+272 silly gunzTarPerm modified mode [ 'test/error_code/src.js', 438, 420 ]
+273 silly gunzTarPerm extractEntry test/json/main.js
+274 silly gunzTarPerm modified mode [ 'test/json/main.js', 438, 420 ]
+275 silly gunzTarPerm extractEntry test/json/beep.json
+276 silly gunzTarPerm modified mode [ 'test/json/beep.json', 438, 420 ]
+277 silly gunzTarPerm extractEntry test/entry/main.js
+278 silly gunzTarPerm modified mode [ 'test/entry/main.js', 438, 420 ]
+279 silly gunzTarPerm extractEntry test/entry/one.js
+280 silly gunzTarPerm modified mode [ 'test/entry/one.js', 438, 420 ]
+281 silly gunzTarPerm extractEntry test/entry/two.js
+282 silly gunzTarPerm modified mode [ 'test/entry/two.js', 438, 420 ]
+283 silly gunzTarPerm extractEntry test/reverse_multi_bundle/app.js
+284 silly gunzTarPerm modified mode [ 'test/reverse_multi_bundle/app.js', 438, 420 ]
+285 silly gunzTarPerm extractEntry test/reverse_multi_bundle/lazy.js
+286 silly gunzTarPerm modified mode [ 'test/reverse_multi_bundle/lazy.js', 438, 420 ]
+287 silly gunzTarPerm extractEntry test/reverse_multi_bundle/shared.js
+288 silly gunzTarPerm modified mode [ 'test/reverse_multi_bundle/shared.js', 438, 420 ]
+289 silly gunzTarPerm extractEntry test/dollar/dollar/index.js
+290 silly gunzTarPerm modified mode [ 'test/dollar/dollar/index.js', 438, 420 ]
+291 silly gunzTarPerm extractEntry test/shebang/foo.js
+292 silly gunzTarPerm modified mode [ 'test/shebang/foo.js', 438, 420 ]
+293 silly gunzTarPerm extractEntry test/shebang/main.js
+294 silly gunzTarPerm modified mode [ 'test/shebang/main.js', 438, 420 ]
+295 silly gunzTarPerm extractEntry test/comment/main.js
+296 silly gunzTarPerm modified mode [ 'test/comment/main.js', 438, 420 ]
+297 silly gunzTarPerm extractEntry test/standalone/main.js
+298 silly gunzTarPerm modified mode [ 'test/standalone/main.js', 438, 420 ]
+299 silly gunzTarPerm extractEntry test/standalone/one.js
+300 silly gunzTarPerm modified mode [ 'test/standalone/one.js', 438, 420 ]
+301 silly gunzTarPerm extractEntry test/standalone/two.js
+302 silly gunzTarPerm modified mode [ 'test/standalone/two.js', 438, 420 ]
+303 silly gunzTarPerm extractEntry test/coffee_bin/main.coffee
+304 silly gunzTarPerm modified mode [ 'test/coffee_bin/main.coffee', 438, 420 ]
+305 silly gunzTarPerm extractEntry test/coffee_bin/x.coffee
+306 silly gunzTarPerm modified mode [ 'test/coffee_bin/x.coffee', 438, 420 ]
+307 silly gunzTarPerm extractEntry test/subdep/package.json
+308 silly gunzTarPerm modified mode [ 'test/subdep/package.json', 438, 420 ]
+309 silly gunzTarPerm extractEntry test/subdep/index.js
+310 silly gunzTarPerm modified mode [ 'test/subdep/index.js', 438, 420 ]
+311 silly gunzTarPerm extractEntry test/subdep/node_modules/qq/package.json
+312 silly gunzTarPerm modified mode [ 'test/subdep/node_modules/qq/package.json', 438, 420 ]
+313 silly gunzTarPerm extractEntry test/subdep/node_modules/qq/b.js
+314 silly gunzTarPerm modified mode [ 'test/subdep/node_modules/qq/b.js', 438, 420 ]
+315 silly gunzTarPerm extractEntry test/subdep/node_modules/qq/ignore_me.js
+316 silly gunzTarPerm modified mode [ 'test/subdep/node_modules/qq/ignore_me.js', 438, 420 ]
+317 silly gunzTarPerm extractEntry test/subdep/node_modules/qq/node_modules/a/package.json
+318 silly gunzTarPerm modified mode [ 'test/subdep/node_modules/qq/node_modules/a/package.json',
+318 silly gunzTarPerm   438,
+318 silly gunzTarPerm   420 ]
+319 silly gunzTarPerm extractEntry test/subdep/node_modules/qq/node_modules/a/index.js
+320 silly gunzTarPerm modified mode [ 'test/subdep/node_modules/qq/node_modules/a/index.js',
+320 silly gunzTarPerm   438,
+320 silly gunzTarPerm   420 ]
+321 silly gunzTarPerm extractEntry test/subdep/node_modules/qq/node_modules/c/package.json
+322 silly gunzTarPerm modified mode [ 'test/subdep/node_modules/qq/node_modules/c/package.json',
+322 silly gunzTarPerm   438,
+322 silly gunzTarPerm   420 ]
+323 silly gunzTarPerm extractEntry test/subdep/node_modules/qq/node_modules/c/index.js
+324 silly gunzTarPerm modified mode [ 'test/subdep/node_modules/qq/node_modules/c/index.js',
+324 silly gunzTarPerm   438,
+324 silly gunzTarPerm   420 ]
+325 silly gunzTarPerm extractEntry test/subdep/node_modules/qq/node_modules/f/index.js
+326 silly gunzTarPerm modified mode [ 'test/subdep/node_modules/qq/node_modules/f/index.js',
+326 silly gunzTarPerm   438,
+326 silly gunzTarPerm   420 ]
+327 silly gunzTarPerm extractEntry test/subdep/node_modules/qq/node_modules/z/index.js
+328 silly gunzTarPerm modified mode [ 'test/subdep/node_modules/qq/node_modules/z/index.js',
+328 silly gunzTarPerm   438,
+328 silly gunzTarPerm   420 ]
+329 silly gunzTarPerm extractEntry test/circular/a.js
+330 silly gunzTarPerm modified mode [ 'test/circular/a.js', 438, 420 ]
+331 silly gunzTarPerm extractEntry test/circular/b.js
+332 silly gunzTarPerm modified mode [ 'test/circular/b.js', 438, 420 ]
+333 silly gunzTarPerm extractEntry test/circular/main.js
+334 silly gunzTarPerm modified mode [ 'test/circular/main.js', 438, 420 ]
+335 silly gunzTarPerm extractEntry test/tr/f.js
+336 silly gunzTarPerm modified mode [ 'test/tr/f.js', 438, 420 ]
+337 silly gunzTarPerm extractEntry test/tr/main.js
+338 silly gunzTarPerm modified mode [ 'test/tr/main.js', 438, 420 ]
+339 silly gunzTarPerm extractEntry test/tr/node_modules/g/package.json
+340 silly gunzTarPerm modified mode [ 'test/tr/node_modules/g/package.json', 438, 420 ]
+341 silly gunzTarPerm extractEntry test/tr/node_modules/g/index.js
+342 silly gunzTarPerm modified mode [ 'test/tr/node_modules/g/index.js', 438, 420 ]
+343 silly gunzTarPerm extractEntry test/tr/node_modules/g/node_modules/insert-ggg/index.js
+344 silly gunzTarPerm modified mode [ 'test/tr/node_modules/g/node_modules/insert-ggg/index.js',
+344 silly gunzTarPerm   438,
+344 silly gunzTarPerm   420 ]
+345 silly gunzTarPerm extractEntry test/tr/node_modules/insert-aaa/index.js
+346 silly gunzTarPerm modified mode [ 'test/tr/node_modules/insert-aaa/index.js', 438, 420 ]
+347 silly gunzTarPerm extractEntry test/tr/node_modules/insert-bbb/index.js
+348 silly gunzTarPerm modified mode [ 'test/tr/node_modules/insert-bbb/index.js', 438, 420 ]
+349 silly gunzTarPerm extractEntry test/tr/node_modules/m/index.js
+350 silly gunzTarPerm modified mode [ 'test/tr/node_modules/m/index.js', 438, 420 ]
+351 silly gunzTarPerm extractEntry test/entry_exec/fail.js
+352 silly gunzTarPerm modified mode [ 'test/entry_exec/fail.js', 438, 420 ]
+353 silly gunzTarPerm extractEntry test/entry_exec/main.js
+354 silly gunzTarPerm modified mode [ 'test/entry_exec/main.js', 438, 420 ]
+355 silly gunzTarPerm extractEntry test/node_modules/beep/index.js
+356 silly gunzTarPerm modified mode [ 'test/node_modules/beep/index.js', 438, 420 ]
+357 verbose read json D:\jdevcc\rocambole-visualize\node_modules\browserify\package.json
+358 silly lockFile e7815724-isualize-node-modules-browserify D:\jdevcc\rocambole-visualize\node_modules\browserify
+359 silly lockFile e7815724-isualize-node-modules-browserify D:\jdevcc\rocambole-visualize\node_modules\browserify
+360 silly lockFile 68768e3f-he-browserify-2-18-1-package-tgz C:\Users\fcrisci\AppData\Roaming\npm-cache\browserify\2.18.1\package.tgz
+361 silly lockFile 68768e3f-he-browserify-2-18-1-package-tgz C:\Users\fcrisci\AppData\Roaming\npm-cache\browserify\2.18.1\package.tgz
+362 info preinstall browserify@2.18.1
+363 verbose from cache D:\jdevcc\rocambole-visualize\node_modules\browserify\package.json
+364 verbose readDependencies using package.json deps
+365 verbose from cache D:\jdevcc\rocambole-visualize\node_modules\browserify\package.json
+366 verbose readDependencies using package.json deps
+367 verbose cache add [ 'module-deps@~0.10.3', null ]
+368 verbose cache add name=undefined spec="module-deps@~0.10.3" args=["module-deps@~0.10.3",null]
+369 verbose parsed url { pathname: 'module-deps@~0.10.3',
+369 verbose parsed url   path: 'module-deps@~0.10.3',
+369 verbose parsed url   href: 'module-deps@~0.10.3' }
+370 verbose cache add name="module-deps" spec="~0.10.3" args=["module-deps","~0.10.3"]
+371 verbose parsed url { pathname: '~0.10.3', path: '~0.10.3', href: '~0.10.3' }
+372 verbose addNamed [ 'module-deps', '~0.10.3' ]
+373 verbose addNamed [ null, '>=0.10.3- <0.11.0-' ]
+374 silly lockFile 6f391652-module-deps-0-10-3 module-deps@~0.10.3
+375 verbose lock module-deps@~0.10.3 C:\Users\fcrisci\AppData\Roaming\npm-cache\6f391652-module-deps-0-10-3.lock
+376 verbose cache add [ 'browser-pack@~0.9.2', null ]
+377 verbose cache add name=undefined spec="browser-pack@~0.9.2" args=["browser-pack@~0.9.2",null]
+378 verbose parsed url { pathname: 'browser-pack@~0.9.2',
+378 verbose parsed url   path: 'browser-pack@~0.9.2',
+378 verbose parsed url   href: 'browser-pack@~0.9.2' }
+379 verbose cache add name="browser-pack" spec="~0.9.2" args=["browser-pack","~0.9.2"]
+380 verbose parsed url { pathname: '~0.9.2', path: '~0.9.2', href: '~0.9.2' }
+381 verbose addNamed [ 'browser-pack', '~0.9.2' ]
+382 verbose addNamed [ null, '>=0.9.2- <0.10.0-' ]
+383 silly lockFile dad96fc6-browser-pack-0-9-2 browser-pack@~0.9.2
+384 verbose lock browser-pack@~0.9.2 C:\Users\fcrisci\AppData\Roaming\npm-cache\dad96fc6-browser-pack-0-9-2.lock
+385 verbose cache add [ 'shell-quote@~0.0.1', null ]
+386 verbose cache add name=undefined spec="shell-quote@~0.0.1" args=["shell-quote@~0.0.1",null]
+387 verbose parsed url { pathname: 'shell-quote@~0.0.1',
+387 verbose parsed url   path: 'shell-quote@~0.0.1',
+387 verbose parsed url   href: 'shell-quote@~0.0.1' }
+388 verbose cache add name="shell-quote" spec="~0.0.1" args=["shell-quote","~0.0.1"]
+389 verbose parsed url { pathname: '~0.0.1', path: '~0.0.1', href: '~0.0.1' }
+390 verbose addNamed [ 'shell-quote', '~0.0.1' ]
+391 verbose addNamed [ null, '>=0.0.1- <0.1.0-' ]
+392 silly lockFile a21e4fde-shell-quote-0-0-1 shell-quote@~0.0.1
+393 verbose lock shell-quote@~0.0.1 C:\Users\fcrisci\AppData\Roaming\npm-cache\a21e4fde-shell-quote-0-0-1.lock
+394 verbose cache add [ 'through@~2.3.4', null ]
+395 verbose cache add name=undefined spec="through@~2.3.4" args=["through@~2.3.4",null]
+396 verbose parsed url { pathname: 'through@~2.3.4',
+396 verbose parsed url   path: 'through@~2.3.4',
+396 verbose parsed url   href: 'through@~2.3.4' }
+397 verbose cache add name="through" spec="~2.3.4" args=["through","~2.3.4"]
+398 verbose parsed url { pathname: '~2.3.4', path: '~2.3.4', href: '~2.3.4' }
+399 verbose addNamed [ 'through', '~2.3.4' ]
+400 verbose addNamed [ null, '>=2.3.4- <2.4.0-' ]
+401 silly lockFile 560c0a42-through-2-3-4 through@~2.3.4
+402 verbose lock through@~2.3.4 C:\Users\fcrisci\AppData\Roaming\npm-cache\560c0a42-through-2-3-4.lock
+403 verbose cache add [ 'duplexer@~0.0.2', null ]
+404 verbose cache add name=undefined spec="duplexer@~0.0.2" args=["duplexer@~0.0.2",null]
+405 verbose parsed url { pathname: 'duplexer@~0.0.2',
+405 verbose parsed url   path: 'duplexer@~0.0.2',
+405 verbose parsed url   href: 'duplexer@~0.0.2' }
+406 verbose cache add name="duplexer" spec="~0.0.2" args=["duplexer","~0.0.2"]
+407 verbose parsed url { pathname: '~0.0.2', path: '~0.0.2', href: '~0.0.2' }
+408 verbose addNamed [ 'duplexer', '~0.0.2' ]
+409 verbose addNamed [ null, '>=0.0.2- <0.1.0-' ]
+410 silly lockFile 0388a310-duplexer-0-0-2 duplexer@~0.0.2
+411 verbose lock duplexer@~0.0.2 C:\Users\fcrisci\AppData\Roaming\npm-cache\0388a310-duplexer-0-0-2.lock
+412 verbose cache add [ 'concat-stream@~0.1.1', null ]
+413 verbose cache add name=undefined spec="concat-stream@~0.1.1" args=["concat-stream@~0.1.1",null]
+414 verbose parsed url { pathname: 'concat-stream@~0.1.1',
+414 verbose parsed url   path: 'concat-stream@~0.1.1',
+414 verbose parsed url   href: 'concat-stream@~0.1.1' }
+415 verbose cache add name="concat-stream" spec="~0.1.1" args=["concat-stream","~0.1.1"]
+416 verbose parsed url { pathname: '~0.1.1', path: '~0.1.1', href: '~0.1.1' }
+417 verbose addNamed [ 'concat-stream', '~0.1.1' ]
+418 verbose addNamed [ null, '>=0.1.1- <0.2.0-' ]
+419 silly lockFile dde590a9-concat-stream-0-1-1 concat-stream@~0.1.1
+420 verbose lock concat-stream@~0.1.1 C:\Users\fcrisci\AppData\Roaming\npm-cache\dde590a9-concat-stream-0-1-1.lock
+421 verbose cache add [ 'insert-module-globals@~0.2.0', null ]
+422 verbose cache add name=undefined spec="insert-module-globals@~0.2.0" args=["insert-module-globals@~0.2.0",null]
+423 verbose parsed url { pathname: 'insert-module-globals@~0.2.0',
+423 verbose parsed url   path: 'insert-module-globals@~0.2.0',
+423 verbose parsed url   href: 'insert-module-globals@~0.2.0' }
+424 verbose cache add name="insert-module-globals" spec="~0.2.0" args=["insert-module-globals","~0.2.0"]
+425 verbose parsed url { pathname: '~0.2.0', path: '~0.2.0', href: '~0.2.0' }
+426 verbose addNamed [ 'insert-module-globals', '~0.2.0' ]
+427 verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+428 silly lockFile 2ec7749e-insert-module-globals-0-2-0 insert-module-globals@~0.2.0
+429 verbose lock insert-module-globals@~0.2.0 C:\Users\fcrisci\AppData\Roaming\npm-cache\2ec7749e-insert-module-globals-0-2-0.lock
+430 verbose cache add [ 'syntax-error@~0.0.0', null ]
+431 verbose cache add name=undefined spec="syntax-error@~0.0.0" args=["syntax-error@~0.0.0",null]
+432 verbose parsed url { pathname: 'syntax-error@~0.0.0',
+432 verbose parsed url   path: 'syntax-error@~0.0.0',
+432 verbose parsed url   href: 'syntax-error@~0.0.0' }
+433 verbose cache add name="syntax-error" spec="~0.0.0" args=["syntax-error","~0.0.0"]
+434 verbose parsed url { pathname: '~0.0.0', path: '~0.0.0', href: '~0.0.0' }
+435 verbose addNamed [ 'syntax-error', '~0.0.0' ]
+436 verbose addNamed [ null, '>=0.0.0- <0.1.0-' ]
+437 silly lockFile 541c7056-syntax-error-0-0-0 syntax-error@~0.0.0
+438 verbose lock syntax-error@~0.0.0 C:\Users\fcrisci\AppData\Roaming\npm-cache\541c7056-syntax-error-0-0-0.lock
+439 verbose cache add [ 'browser-resolve@git://github.com/substack/node-browser-resolve.git#dir-replace',
+439 verbose cache add   null ]
+440 verbose cache add name=undefined spec="browser-resolve@git://github.com/substack/node-browser-resolve.git#dir-replace" args=["browser-resolve@git://github.com/substack/node-browser-resolve.git#dir-replace",null]
+441 verbose parsed url { hash: '#dir-replace',
+441 verbose parsed url   pathname: 'browser-resolve@git://github.com/substack/node-browser-resolve.git',
+441 verbose parsed url   path: 'browser-resolve@git://github.com/substack/node-browser-resolve.git',
+441 verbose parsed url   href: 'browser-resolve@git://github.com/substack/node-browser-resolve.git#dir-replace' }
+442 verbose cache add name="browser-resolve" spec="git://github.com/substack/node-browser-resolve.git#dir-replace" args=["browser-resolve","git://github.com/substack/node-browser-resolve.git#dir-replace"]
+443 verbose parsed url { protocol: 'git:',
+443 verbose parsed url   slashes: true,
+443 verbose parsed url   host: 'github.com',
+443 verbose parsed url   hostname: 'github.com',
+443 verbose parsed url   href: 'git://github.com/substack/node-browser-resolve.git#dir-replace',
+443 verbose parsed url   hash: '#dir-replace',
+443 verbose parsed url   pathname: '/substack/node-browser-resolve.git',
+443 verbose parsed url   path: '/substack/node-browser-resolve.git' }
+444 silly lockFile 54af54e7--browser-resolve-git-dir-replace git://github.com/substack/node-browser-resolve.git#dir-replace
+445 verbose lock git://github.com/substack/node-browser-resolve.git#dir-replace C:\Users\fcrisci\AppData\Roaming\npm-cache\54af54e7--browser-resolve-git-dir-replace.lock
+446 verbose cache add [ 'browser-builtins@~1.0.1', null ]
+447 verbose cache add name=undefined spec="browser-builtins@~1.0.1" args=["browser-builtins@~1.0.1",null]
+448 verbose parsed url { pathname: 'browser-builtins@~1.0.1',
+448 verbose parsed url   path: 'browser-builtins@~1.0.1',
+448 verbose parsed url   href: 'browser-builtins@~1.0.1' }
+449 verbose cache add name="browser-builtins" spec="~1.0.1" args=["browser-builtins","~1.0.1"]
+450 verbose parsed url { pathname: '~1.0.1', path: '~1.0.1', href: '~1.0.1' }
+451 verbose addNamed [ 'browser-builtins', '~1.0.1' ]
+452 verbose addNamed [ null, '>=1.0.1- <1.1.0-' ]
+453 silly lockFile 764a1474-browser-builtins-1-0-1 browser-builtins@~1.0.1
+454 verbose lock browser-builtins@~1.0.1 C:\Users\fcrisci\AppData\Roaming\npm-cache\764a1474-browser-builtins-1-0-1.lock
+455 verbose cache add [ 'inherits@~1.0.0', null ]
+456 verbose cache add name=undefined spec="inherits@~1.0.0" args=["inherits@~1.0.0",null]
+457 verbose parsed url { pathname: 'inherits@~1.0.0',
+457 verbose parsed url   path: 'inherits@~1.0.0',
+457 verbose parsed url   href: 'inherits@~1.0.0' }
+458 verbose cache add name="inherits" spec="~1.0.0" args=["inherits","~1.0.0"]
+459 verbose parsed url { pathname: '~1.0.0', path: '~1.0.0', href: '~1.0.0' }
+460 verbose addNamed [ 'inherits', '~1.0.0' ]
+461 verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+462 silly lockFile 9a68ae75-inherits-1-0-0 inherits@~1.0.0
+463 verbose lock inherits@~1.0.0 C:\Users\fcrisci\AppData\Roaming\npm-cache\9a68ae75-inherits-1-0-0.lock
+464 verbose cache add [ 'optimist@~0.5.1', null ]
+465 verbose cache add name=undefined spec="optimist@~0.5.1" args=["optimist@~0.5.1",null]
+466 verbose parsed url { pathname: 'optimist@~0.5.1',
+466 verbose parsed url   path: 'optimist@~0.5.1',
+466 verbose parsed url   href: 'optimist@~0.5.1' }
+467 verbose cache add name="optimist" spec="~0.5.1" args=["optimist","~0.5.1"]
+468 verbose parsed url { pathname: '~0.5.1', path: '~0.5.1', href: '~0.5.1' }
+469 verbose addNamed [ 'optimist', '~0.5.1' ]
+470 verbose addNamed [ null, '>=0.5.1- <0.6.0-' ]
+471 silly lockFile 24b4c02f-optimist-0-5-1 optimist@~0.5.1
+472 verbose lock optimist@~0.5.1 C:\Users\fcrisci\AppData\Roaming\npm-cache\24b4c02f-optimist-0-5-1.lock
+473 verbose cache add [ 'JSONStream@~0.6.4', null ]
+474 verbose cache add name=undefined spec="JSONStream@~0.6.4" args=["JSONStream@~0.6.4",null]
+475 verbose parsed url { pathname: 'JSONStream@~0.6.4',
+475 verbose parsed url   path: 'JSONStream@~0.6.4',
+475 verbose parsed url   href: 'JSONStream@~0.6.4' }
+476 verbose cache add name="JSONStream" spec="~0.6.4" args=["JSONStream","~0.6.4"]
+477 verbose parsed url { pathname: '~0.6.4', path: '~0.6.4', href: '~0.6.4' }
+478 verbose addNamed [ 'JSONStream', '~0.6.4' ]
+479 verbose addNamed [ null, '>=0.6.4- <0.7.0-' ]
+480 silly lockFile ca991f02-JSONStream-0-6-4 JSONStream@~0.6.4
+481 verbose lock JSONStream@~0.6.4 C:\Users\fcrisci\AppData\Roaming\npm-cache\ca991f02-JSONStream-0-6-4.lock
+482 verbose cache add [ 'umd@~1.1.0', null ]
+483 verbose cache add name=undefined spec="umd@~1.1.0" args=["umd@~1.1.0",null]
+484 verbose parsed url { pathname: 'umd@~1.1.0',
+484 verbose parsed url   path: 'umd@~1.1.0',
+484 verbose parsed url   href: 'umd@~1.1.0' }
+485 verbose cache add name="umd" spec="~1.1.0" args=["umd","~1.1.0"]
+486 verbose parsed url { pathname: '~1.1.0', path: '~1.1.0', href: '~1.1.0' }
+487 verbose addNamed [ 'umd', '~1.1.0' ]
+488 verbose addNamed [ null, '>=1.1.0- <1.2.0-' ]
+489 silly lockFile 8673ee2a-umd-1-1-0 umd@~1.1.0
+490 verbose lock umd@~1.1.0 C:\Users\fcrisci\AppData\Roaming\npm-cache\8673ee2a-umd-1-1-0.lock
+491 silly addNameRange { name: 'module-deps',
+491 silly addNameRange   range: '>=0.10.3- <0.11.0-',
+491 silly addNameRange   hasData: false }
+492 silly addNameRange { name: 'browser-pack',
+492 silly addNameRange   range: '>=0.9.2- <0.10.0-',
+492 silly addNameRange   hasData: false }
+493 silly addNameRange { name: 'shell-quote',
+493 silly addNameRange   range: '>=0.0.1- <0.1.0-',
+493 silly addNameRange   hasData: false }
+494 silly addNameRange { name: 'through', range: '>=2.3.4- <2.4.0-', hasData: false }
+495 silly addNameRange { name: 'duplexer', range: '>=0.0.2- <0.1.0-', hasData: false }
+496 silly addNameRange { name: 'concat-stream',
+496 silly addNameRange   range: '>=0.1.1- <0.2.0-',
+496 silly addNameRange   hasData: false }
+497 silly addNameRange { name: 'insert-module-globals',
+497 silly addNameRange   range: '>=0.2.0- <0.3.0-',
+497 silly addNameRange   hasData: false }
+498 silly addNameRange { name: 'syntax-error',
+498 silly addNameRange   range: '>=0.0.0- <0.1.0-',
+498 silly addNameRange   hasData: false }
+499 silly addNameRange { name: 'browser-builtins',
+499 silly addNameRange   range: '>=1.0.1- <1.1.0-',
+499 silly addNameRange   hasData: false }
+500 silly addNameRange { name: 'inherits', range: '>=1.0.0- <1.1.0-', hasData: false }
+501 silly addNameRange { name: 'optimist', range: '>=0.5.1- <0.6.0-', hasData: false }
+502 silly addNameRange { name: 'JSONStream', range: '>=0.6.4- <0.7.0-', hasData: false }
+503 silly addNameRange { name: 'umd', range: '>=1.1.0- <1.2.0-', hasData: false }
+504 verbose addRemoteGit [ 'git://github.com/substack/node-browser-resolve.git',
+504 verbose addRemoteGit   'dir-replace' ]
+505 verbose url raw shell-quote
+506 verbose url resolving [ 'https://registry.npmjs.org/', './shell-quote' ]
+507 verbose url resolved https://registry.npmjs.org/shell-quote
+508 info trying registry request attempt 1 at 16:35:57
+509 verbose etag "764TDU6L9LYAZQLKSJ20B2UGQ"
+510 http GET https://registry.npmjs.org/shell-quote
+511 verbose url raw browser-pack
+512 verbose url resolving [ 'https://registry.npmjs.org/', './browser-pack' ]
+513 verbose url resolved https://registry.npmjs.org/browser-pack
+514 info trying registry request attempt 1 at 16:35:57
+515 verbose etag "8YDOAF647AYSXSM7PWXAKZXCC"
+516 http GET https://registry.npmjs.org/browser-pack
+517 verbose url raw through
+518 verbose url resolving [ 'https://registry.npmjs.org/', './through' ]
+519 verbose url resolved https://registry.npmjs.org/through
+520 info trying registry request attempt 1 at 16:35:57
+521 verbose etag "YRM0UZTGV5RUNGL4TB74N5W6"
+522 http GET https://registry.npmjs.org/through
+523 verbose url raw concat-stream
+524 verbose url resolving [ 'https://registry.npmjs.org/', './concat-stream' ]
+525 verbose url resolved https://registry.npmjs.org/concat-stream
+526 info trying registry request attempt 1 at 16:35:57
+527 verbose etag "D30MNDR973438ANLQAPQHD9BG"
+528 http GET https://registry.npmjs.org/concat-stream
+529 verbose url raw duplexer
+530 verbose url resolving [ 'https://registry.npmjs.org/', './duplexer' ]
+531 verbose url resolved https://registry.npmjs.org/duplexer
+532 info trying registry request attempt 1 at 16:35:57
+533 verbose etag "5TEYF2VY56X8NT36IZTSEXG0L"
+534 http GET https://registry.npmjs.org/duplexer
+535 verbose url raw syntax-error
+536 verbose url resolving [ 'https://registry.npmjs.org/', './syntax-error' ]
+537 verbose url resolved https://registry.npmjs.org/syntax-error
+538 info trying registry request attempt 1 at 16:35:57
+539 verbose etag "46WIGGC11SGN6RELKZEIM9FRR"
+540 http GET https://registry.npmjs.org/syntax-error
+541 verbose url raw insert-module-globals
+542 verbose url resolving [ 'https://registry.npmjs.org/', './insert-module-globals' ]
+543 verbose url resolved https://registry.npmjs.org/insert-module-globals
+544 info trying registry request attempt 1 at 16:35:57
+545 verbose etag "9SXBEYNVCV7OY7WNVZ9WX5VFD"
+546 http GET https://registry.npmjs.org/insert-module-globals
+547 verbose url raw module-deps
+548 verbose url resolving [ 'https://registry.npmjs.org/', './module-deps' ]
+549 verbose url resolved https://registry.npmjs.org/module-deps
+550 info trying registry request attempt 1 at 16:35:57
+551 verbose etag "CDLSULO8QK2JRWVEFS6OXSNFR"
+552 http GET https://registry.npmjs.org/module-deps
+553 verbose url raw inherits
+554 verbose url resolving [ 'https://registry.npmjs.org/', './inherits' ]
+555 verbose url resolved https://registry.npmjs.org/inherits
+556 info trying registry request attempt 1 at 16:35:57
+557 verbose etag "95AEQLT7K8F5YP7JX1NLNSZQ"
+558 http GET https://registry.npmjs.org/inherits
+559 verbose url raw optimist
+560 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+561 verbose url resolved https://registry.npmjs.org/optimist
+562 info trying registry request attempt 1 at 16:35:57
+563 verbose etag "AR8PAPTOIC69CG6F1VZDJFKAT"
+564 http GET https://registry.npmjs.org/optimist
+565 verbose url raw JSONStream
+566 verbose url resolving [ 'https://registry.npmjs.org/', './JSONStream' ]
+567 verbose url resolved https://registry.npmjs.org/JSONStream
+568 info trying registry request attempt 1 at 16:35:57
+569 verbose etag "6A00GMSTOIP5HD39IJDARZ7XT"
+570 http GET https://registry.npmjs.org/JSONStream
+571 verbose url raw umd
+572 verbose url resolving [ 'https://registry.npmjs.org/', './umd' ]
+573 verbose url resolved https://registry.npmjs.org/umd
+574 info trying registry request attempt 1 at 16:35:57
+575 verbose etag "AGDOQFDDSTPOLD6A8O0438AV"
+576 http GET https://registry.npmjs.org/umd
+577 verbose url raw browser-builtins
+578 verbose url resolving [ 'https://registry.npmjs.org/', './browser-builtins' ]
+579 verbose url resolved https://registry.npmjs.org/browser-builtins
+580 info trying registry request attempt 1 at 16:35:57
+581 verbose etag "AZZDUIVDBEIV8KUJUGVNNGD12"
+582 http GET https://registry.npmjs.org/browser-builtins
+583 silly exec git "clone" "--mirror" "git://github.com/substack/node-browser-resolve.git" "C:\\Users\\fcrisci\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-substack-node-browser-resolve-git-baafa423"
+584 silly git,clone,--mirror,git://github.com/substack/node-browser-resolve.git,C:\Users\fcrisci\AppData\Roaming\npm-cache\_git-remotes\git-github-com-substack-node-browser-resolve-git-baafa423, spawning
+585 error git clone git://github.com/substack/node-browser-resolve.git Cloning into bare repository 'C:\Users\fcrisci\AppData\Roaming\npm-cache\_git-remotes\git-github-com-substack-node-browser-resolve-git-baafa423'...
+585 error git clone git://github.com/substack/node-browser-resolve.git
+585 error git clone git://github.com/substack/node-browser-resolve.git fatal: unable to connect to github.com:
+585 error git clone git://github.com/substack/node-browser-resolve.git github.com[0: 204.232.175.90]: errno=No error
+586 silly lockFile baafa423-ubstack-node-browser-resolve-git git://github.com/substack/node-browser-resolve.git
+587 verbose about to build D:\jdevcc\rocambole-visualize\node_modules\browserify
+588 info D:\jdevcc\rocambole-visualize\node_modules\browserify unbuild
+589 verbose from cache D:\jdevcc\rocambole-visualize\node_modules\browserify\package.json
+590 info preuninstall browserify@2.18.1
+591 info uninstall browserify@2.18.1
+592 verbose true,D:\jdevcc\rocambole-visualize\node_modules,D:\jdevcc\rocambole-visualize\node_modules unbuild browserify@2.18.1
+593 verbose D:\jdevcc\rocambole-visualize\node_modules\.bin,[object Object] binRoot
+594 info postuninstall browserify@2.18.1
+595 error Error: `git "clone" "--mirror" "git://github.com/substack/node-browser-resolve.git" "C:\\Users\\fcrisci\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-substack-node-browser-resolve-git-baafa423"` failed with 128
+595 error     at ChildProcess.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\exec.js:59:20)
+595 error     at ChildProcess.EventEmitter.emit (events.js:99:17)
+595 error     at maybeClose (child_process.js:640:16)
+595 error     at Process._handle.onexit (child_process.js:682:5)
+596 error If you need help, you may report this log at:
+596 error     <http://github.com/isaacs/npm/issues>
+596 error or email it to:
+596 error     <npm-@googlegroups.com>
+597 error System Windows_NT 6.1.7601
+598 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+599 error cwd D:\jdevcc\rocambole-visualize
+600 error node -v v0.8.23
+601 error npm -v 1.2.18
+602 verbose exit [ 1, true ]

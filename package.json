@@ -1,0 +1,16 @@
+{
+  "name": "rocambole-visualize",
+  "version": "0.0.1",
+  "author": {
+    "name": "Fabio Crisci"
+  },
+  "devDependencies": {
+    "rocambole": "~0.2",
+    "express": "~3.2",
+    "browserify" : "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}
