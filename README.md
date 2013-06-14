@@ -10,7 +10,13 @@ This tool handles circular references nicely to avoid infinite loops.
 
 ## How to use
 
-Clone the repository and start the web server on port `8080`.
+The easiest way it to use the github hosted version
+
+http://piuccio.github.io/rocambole-visualize/
+
+### Locally
+
+If you want to run it locally on your machine you can clone the repository and start the web server on port `8080` by doing:
 
 ````
 git clone https://github.com/piuccio/rocambole-visualize.git
