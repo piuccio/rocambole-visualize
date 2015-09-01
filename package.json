@@ -5,12 +5,13 @@
     "name": "Fabio Crisci"
   },
   "devDependencies": {
-    "rocambole": "~0.2",
-    "express": "~3.2",
-    "browserify" : "*"
+    "browserify": "*",
+    "express": "^4.13.3",
+    "rocambole": "^0.7.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "browserify -s rocambole -r rocambole > public/js/rocambole.js"
   },
   "license": "MIT"
 }
